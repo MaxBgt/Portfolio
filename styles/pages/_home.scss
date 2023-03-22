@@ -1,20 +1,8 @@
 .home_container {
-  background: url("../assets/img/background-1.jpg") center no-repeat;
   margin: 0;
-  background-size: 100%;
-  animation: zoom-background 5s linear forwards;
-  min-height: 100vh;
-  @keyframes zoom-background {
-    0% {
-      background-size: 100%;
-    }
-    100% {
-      background-size: 120%;
-    }
-  }
+  overflow: hidden;
   .header {
     position: absolute;
-    margin: 0 auto;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
