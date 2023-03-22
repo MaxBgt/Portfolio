@@ -1,3 +1,8 @@
+import {
+  faChevronLeft,
+  faChevronRight,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -14,7 +19,26 @@ const ImageCarousel = () => {
   const handleOnTransitionEnd = () => {
     setTransitioning(false);
   };
-
+  const customPrevBtn = (onClickHandler, hasPrev, label) => (
+    <button
+      type="button"
+      onClick={onClickHandler}
+      title={label}
+      className={`custom-arrow custom-arrow-prev${!hasPrev ? " disabled" : ""}`}
+    >
+      <FontAwesomeIcon icon={faChevronLeft} className="arrow_left" />
+    </button>
+  );
+  const customNextBtn = (onClickHandler, hasNext, label) => (
+    <button
+      type="button"
+      onClick={onClickHandler}
+      title={label}
+      className={`custom-arrow custom-arrow-next${!hasNext ? " disabled" : ""}`}
+    >
+      <FontAwesomeIcon icon={faChevronRight} className="arrow_right" />
+    </button>
+  );
   return (
     <Carousel
       autoPlay
@@ -26,6 +50,11 @@ const ImageCarousel = () => {
       onChange={handleOnChange}
       onTransitionEnd={handleOnTransitionEnd}
       stopOnHover={false}
+      cssClass="default-carouel"
+      renderArrowNext={customNextBtn}
+      renderArrowPrev={customPrevBtn}
+      prevLabel="Previous"
+      nextLabel="Next"
     >
       <div>
         <img

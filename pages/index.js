@@ -1,8 +1,3 @@
-import {
-  faChevronLeft,
-  faChevronRight,
-} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ImageCarousel from "@/components/ImageCarousel";
 import React from "react";
 
@@ -16,8 +11,6 @@ const index = () => {
           <h1 className="job">Développeur web</h1>
         </div>
       </div>
-      <FontAwesomeIcon icon={faChevronRight} className="arrow_right" />
-      <FontAwesomeIcon icon={faChevronLeft} className="arrow_left" />
     </div>
   );
 };
