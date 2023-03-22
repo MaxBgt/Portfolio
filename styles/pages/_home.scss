@@ -1,0 +1,74 @@
+.home_container {
+  background: url("../assets/img/background-1.jpg") center no-repeat;
+  margin: 0;
+  background-size: 100%;
+  animation: zoom-background 5s linear forwards;
+  min-height: 100vh;
+  @keyframes zoom-background {
+    0% {
+      background-size: 100%;
+    }
+    100% {
+      background-size: 120%;
+    }
+  }
+  .header {
+    position: absolute;
+    margin: 0 auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    .title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .name {
+        margin-bottom: 5px;
+        color: #c8c8c8;
+      }
+
+      .job {
+        margin: 0;
+        font-size: 5rem;
+        color: #f1f1f1ed;
+      }
+    }
+  }
+
+  .arrow_right {
+    position: absolute;
+    right: 80px;
+    top: 48%;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 20px;
+    opacity: 0;
+  }
+  .fa-chevron-right:hover {
+    background-color: #ffffffbd;
+    color: #63636396;
+    transition: 0.6s;
+    opacity: 1;
+  }
+  .arrow_left {
+    position: absolute;
+    left: 80px;
+    top: 48%;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 20px;
+    opacity: 0;
+  }
+  .fa-chevron-left:hover {
+    background-color: #ffffffbd;
+    color: #63636396;
+    transition: 0.6s;
+    opacity: 1;
+  }
+}
