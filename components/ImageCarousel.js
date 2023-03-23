@@ -24,7 +24,7 @@ const ImageCarousel = () => {
       type="button"
       onClick={onClickHandler}
       title={label}
-      className={`custom-arrow custom-arrow-prev${!hasPrev ? " disabled" : ""}`}
+      className={`custom-arrow-prev${!hasPrev ? " disabled" : ""}`}
     >
       <FontAwesomeIcon icon={faChevronLeft} className="arrow_left" />
     </button>

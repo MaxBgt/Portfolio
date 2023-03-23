@@ -1,5 +1,8 @@
 .carousel {
   max-height: 100vh;
+  .custom-arrow-prev {
+    position: absolute;
+  }
   .arrow_right {
     position: absolute;
     right: 80px;
@@ -23,7 +26,7 @@
   .arrow_left {
     position: absolute;
     left: 80px;
-    top: 48%;
+    top: 408px;
     font-size: 30px;
     color: white;
     text-align: center;
@@ -32,6 +35,7 @@
     padding: 20px;
     opacity: 0.1;
     z-index: 1;
+    cursor: pointer;
   }
   .fa-chevron-left:hover {
     background-color: #ffffffbd;
