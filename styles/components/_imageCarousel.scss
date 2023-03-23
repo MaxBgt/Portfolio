@@ -1,7 +1,18 @@
 .carousel {
   max-height: 100vh;
-  .custom-arrow-prev {
+  .arrow_left {
     position: absolute;
+    left: 80px;
+    top: 48%;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 20px;
+    opacity: 0.1;
+    z-index: 1;
+    cursor: pointer;
   }
   .arrow_right {
     position: absolute;
@@ -23,20 +34,7 @@
     opacity: 1;
     cursor: pointer;
   }
-  .arrow_left {
-    position: absolute;
-    left: 80px;
-    top: 408px;
-    font-size: 30px;
-    color: white;
-    text-align: center;
-    background: rgba(0, 0, 0, 0.15);
-    border-radius: 10px;
-    padding: 20px;
-    opacity: 0.1;
-    z-index: 1;
-    cursor: pointer;
-  }
+
   .fa-chevron-left:hover {
     background-color: #ffffffbd;
     color: #63636396;

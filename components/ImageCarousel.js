@@ -20,24 +20,19 @@ const ImageCarousel = () => {
     setTransitioning(false);
   };
   const customPrevBtn = (onClickHandler, hasPrev, label) => (
-    <button
-      type="button"
+    <FontAwesomeIcon
+      icon={faChevronLeft}
+      className="arrow_left"
       onClick={onClickHandler}
-      title={label}
-      className={`custom-arrow-prev${!hasPrev ? " disabled" : ""}`}
-    >
-      <FontAwesomeIcon icon={faChevronLeft} className="arrow_left" />
-    </button>
+    />
   );
   const customNextBtn = (onClickHandler, hasNext, label) => (
-    <button
-      type="button"
+    <FontAwesomeIcon
+      icon={faChevronRight}
+      className="arrow_right"
       onClick={onClickHandler}
       title={label}
-      className={`custom-arrow custom-arrow-next${!hasNext ? " disabled" : ""}`}
-    >
-      <FontAwesomeIcon icon={faChevronRight} className="arrow_right" />
-    </button>
+    />
   );
   return (
     <Carousel
