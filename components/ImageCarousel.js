@@ -19,19 +19,18 @@ const ImageCarousel = () => {
   const handleOnTransitionEnd = () => {
     setTransitioning(false);
   };
-  const customPrevBtn = (onClickHandler, hasPrev, label) => (
+  const customPrevBtn = (onClickHandler) => (
     <FontAwesomeIcon
       icon={faChevronLeft}
       className="arrow_left"
       onClick={onClickHandler}
     />
   );
-  const customNextBtn = (onClickHandler, hasNext, label) => (
+  const customNextBtn = (onClickHandler) => (
     <FontAwesomeIcon
       icon={faChevronRight}
       className="arrow_right"
       onClick={onClickHandler}
-      title={label}
     />
   );
   return (
