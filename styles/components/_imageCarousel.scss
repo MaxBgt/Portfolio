@@ -42,6 +42,7 @@
     opacity: 1;
   }
   .img-carousel {
+    object-fit: cover;
     animation: zoom 5s linear infinite;
     @keyframes zoom {
       0% {

@@ -1,0 +1,65 @@
+.navbar {
+  background: rgb(229 203 159 / 55%);
+  margin-top: 0;
+}
+.card_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+
+  .card {
+    width: calc(25% - 177px);
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(54, 50, 50, 0.38);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 40px;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  .techno-container {
+    display: flex;
+    justify-content: center;
+
+    :not(:last-child) {
+      margin-right: 10px;
+      margin-bottom: 5px;
+    }
+    .techno {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+  .card_img {
+    object-fit: cover;
+    width: 100%;
+    border-bottom: 1px solid #dedede;
+  }
+  .card_title {
+    background-color: #7a0a00f0;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    margin: 0;
+    padding: 4px;
+  }
+
+  .description {
+    color: #583532;
+    font-size: 13px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 2px;
+  }
+}

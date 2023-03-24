@@ -22,12 +22,12 @@
 
     a {
       text-decoration: none;
-      color: white;
+      color: rgb(28 2 0);
       position: relative;
     }
 
     a:hover {
-      color: #e74c3c;
+      color: #7a0a00f0;
     }
     a::before {
       content: "";
@@ -36,7 +36,7 @@
       width: 0;
       opacity: 0;
       top: 30px;
-      background: #e74c3c;
+      background: #7a0a00f0;
       bottom: 55px;
       transition: width 0.5s ease, opacity 0.5s ease;
     }
@@ -47,5 +47,3 @@
     }
   }
 }
-
-//   background: #e74c3c;

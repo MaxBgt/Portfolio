@@ -3,7 +3,13 @@ import React, { useEffect } from "react";
 const DynamicText = () => {
   useEffect(() => {
     const job = document.querySelector(".job");
-    const text = ["Développeur web", "Création de site"];
+    const text = [
+      "Développeur web",
+      "Concepteur de sites web",
+      "Web Mobile",
+      "Responsive Design",
+      "Front-end | Back-end",
+    ];
     let wordIndex = 0;
     let letterIndex = 0;
     let isDeleting = false;
