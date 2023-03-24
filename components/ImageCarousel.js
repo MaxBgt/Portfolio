@@ -3,17 +3,27 @@ import {
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const ImageCarousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
-  const [transitioning, setTransitioning] = useState(false);
+  const [zoomClass, setZoomClass] = useState(["img-carousel", "", ""]);
 
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setZoomClass((prevClass) => {
+        const newClass = ["", "", ""];
+        newClass[activeIndex] = "img-carousel";
+        return newClass;
+      });
+    }, 100);
+
+    return () => clearTimeout(timer);
+  }, [activeIndex]);
   const handleOnChange = (index) => {
-    setTransitioning(true);
-    setActiveIndex(index + 1);
+    setActiveIndex(index);
   };
 
   const handleOnTransitionEnd = () => {
@@ -54,21 +64,21 @@ const ImageCarousel = () => {
         <img
           src="/img/background-1.jpg"
           alt="Image1"
-          className={activeIndex === 0 && !transitioning ? "img-carousel" : ""}
+          className={zoomClass[0]}
         />
       </div>
       <div>
         <img
           src="/img/background-2.jpg"
           alt="Image2"
-          className={activeIndex === 1 && !transitioning ? "img-carousel" : ""}
+          className={zoomClass[1]}
         />
       </div>
       <div>
         <img
           src="/img/background-3.jpg"
           alt="Image3"
-          className={activeIndex === 2 && !transitioning ? "img-carousel" : ""}
+          className={zoomClass[2]}
         />
       </div>
     </Carousel>
