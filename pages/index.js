@@ -1,6 +1,6 @@
+import React from "react";
 import DynamicText from "@/components/DynamicText";
 import ImageCarousel from "@/components/ImageCarousel";
-import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 const index = () => {

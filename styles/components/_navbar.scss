@@ -45,5 +45,14 @@
       width: 100%;
       opacity: 1;
     }
+    li.active {
+      a {
+        color: #7a0a00f0;
+        &::before {
+          width: 100%;
+          opacity: 1;
+        }
+      }
+    }
   }
 }
