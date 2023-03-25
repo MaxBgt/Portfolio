@@ -8,10 +8,10 @@ const index = () => {
     <AnimatePresence>
       <motion.div
         className="home_container"
-        initial={{ opacity: 0, y: 15 }}
-        animate={{ opacity: 1, y: 0 }}
-        exit={{ opacity: 0, y: 15 }}
-        transition={{ delay: 0.2 }}
+        initial={{ opacity: 0, x: 30 }}
+        animate={{ opacity: 1, x: 0 }}
+        exit={{ opacity: 0, x: 30 }}
+        transition={{ type: "spring", stiffness: 100 }}
       >
         <ImageCarousel />
         <DynamicText />

@@ -43,7 +43,7 @@
   }
   .img-carousel {
     object-fit: cover;
-    animation: zoom 3s linear infinite;
+    animation: zoom 5s linear infinite;
     @keyframes zoom {
       0% {
         transform: scale(1);
