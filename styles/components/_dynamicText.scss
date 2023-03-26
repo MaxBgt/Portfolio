@@ -3,6 +3,7 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+
   .title {
     display: flex;
     flex-direction: column;
@@ -12,6 +13,7 @@
       margin-bottom: 5px;
       color: #e5e5e5;
     }
+
     .job-container {
       .job {
         margin: 0;
@@ -28,9 +30,11 @@
           transform: translate(-50%);
           animation: cursor 1s infinite;
         }
+
         .highlight {
           color: #7a0a00f0;
         }
+
         @keyframes cursor {
           0% {
             opacity: 1;
@@ -41,6 +45,28 @@
           100% {
             opacity: 1;
           }
+        }
+      }
+    }
+  }
+
+  // Media Queries
+  @media (max-width: 768px) {
+    .title {
+      .job-container {
+        .job {
+          font-size: 3.5rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .title {
+      font-size: 0.8rem;
+      .job-container {
+        .job {
+          font-size: 1.3rem;
         }
       }
     }
