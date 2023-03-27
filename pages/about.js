@@ -16,7 +16,7 @@ const about = () => {
         </div>
         <div className="paragraphe">
           <div className="p-left">
-            <h2 className="t-left">Un développeur web passioné</h2>
+            <h2 className="t-left">Un développeur web passionné</h2>
             <p>
               En tant que développeur web, j'ai débuté mon parcours dans
               l'apprentissage du développement en août 2022.
@@ -59,7 +59,7 @@ const about = () => {
               capacité à travailler de manière autonome et en équipe. Par
               ailleurs, j'ai obtenu un diplôme de Développeur Intégrateur Web
               équivalent à un niveau bac +2 grâce à la formation dispensée par
-              Openclassrooms.
+              OpenClassrooms.
               <br />
             </p>
             <p>
