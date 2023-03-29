@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Movie App",
-      "img": "img/react_movie_app.svg",
+      "img": "img/react-movie.jpg",
       "desc": "Création d'une application de cinéma avec ReactJs. Implémentation de filtres et d'une barre de recherche.",
       "url": "https://movie-app-react-javascript.netlify.app/",
       "techno": ["techno/react.png", "techno/js.png", "techno/Sass.png"]
@@ -11,7 +11,7 @@
     {
       "id": 2,
       "title": "Country App",
-      "img": "img/country-app.svg",
+      "img": "img/country-app.jpg",
       "desc": "Manipulation d'API de pays. Mise en place de filtres par continent. Utilisation de React Router.",
       "url": "https://countries-react-cours.netlify.app/",
       "techno": ["techno/react.png", "techno/js.png", "techno/css.png"]
@@ -39,6 +39,14 @@
       "desc": "Intégration HTML/CSS du site Gaming Campus.",
       "url": "https://maxbgt.github.io/Gaming-campus-css-/",
       "techno": ["techno/HTML.png", "techno/css.png"]
+    },
+    {
+      "id": 6,
+      "title": "Kasa",
+      "img": "img/kasa.jpg",
+      "desc": "Développement from scratch d'une application avec ReactJs. Création de plusieurs pages et d'une descirption pour chaque logement",
+      "url": "https://kasa-logements.netlify.app/",
+      "techno": ["techno/react.png", "techno/Sass.png", "techno/js.png"]
     }
   ]
 }
