@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 const Card = ({ project }) => {
   return (
     <div className="card">
