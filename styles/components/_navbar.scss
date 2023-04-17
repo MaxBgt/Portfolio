@@ -19,14 +19,18 @@
     :not(:last-child) {
       margin-right: 40px;
     }
-
+    .fa-house {
+      color: rgb(28, 2, 0);
+      height: 20px;
+    }
     a {
       text-decoration: none;
       color: rgb(28 2 0);
       position: relative;
     }
 
-    a:hover {
+    a:hover,
+    .fa-house:hover {
       color: #7a0a00f0;
     }
 
@@ -48,7 +52,8 @@
     }
 
     li.active {
-      a {
+      a,
+      .fa-house {
         color: #7a0a00f0;
         &::before {
           width: 100%;

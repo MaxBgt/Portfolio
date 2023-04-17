@@ -20,7 +20,7 @@ const Navbar = () => {
         <ul className="nav-elements">
           <li className={isActive("/") ? "active" : ""}>
             <Link href="/">
-              <FontAwesomeIcon icon={faHome} />
+              <FontAwesomeIcon icon={faHome} id="home" />
             </Link>
           </li>
           <li className={isActive("/portfolio") ? "active" : ""}>
