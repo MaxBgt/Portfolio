@@ -32,14 +32,14 @@ const ImageCarousel = () => {
   const customPrevBtn = (onClickHandler) => (
     <FontAwesomeIcon
       icon={faChevronLeft}
-      className="arrow_left"
+      id="arrow_left"
       onClick={onClickHandler}
     />
   );
   const customNextBtn = (onClickHandler) => (
     <FontAwesomeIcon
       icon={faChevronRight}
-      className="arrow_right"
+      id="arrow_right"
       onClick={onClickHandler}
     />
   );
