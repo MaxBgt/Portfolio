@@ -5,10 +5,9 @@ const DynamicText = () => {
     const job = document.querySelector(".job");
     const text = [
       "Développeur web",
-      "Concepteur de sites web",
       "Web Mobile",
       "Responsive Design",
-      "Front-end | Back-end",
+      "Front-end",
     ];
     let wordIndex = 0;
     let letterIndex = 0;
