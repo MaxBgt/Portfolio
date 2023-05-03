@@ -72,18 +72,18 @@
     }
   }
 
-  @media (max-width: 768px) {
-    .arrow_left,
-    .arrow_right {
-      font-size: 20px;
+  @media (max-width: 820px) {
+    #arrow_left,
+    #arrow_right {
+      height: 40px;
       padding: 10px;
     }
 
-    .arrow_left {
+    #arrow_left {
       left: 40px;
     }
 
-    .arrow_right {
+    #arrow_right {
       right: 40px;
     }
   }
