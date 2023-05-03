@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Movie App",
-      "img": "img/react-movie.jpg",
+      "img": "img/react-movie.png",
       "desc": "Création d'une application de cinéma avec ReactJs. Implémentation de filtres et d'une barre de recherche.",
       "url": "https://movie-app-react-javascript.netlify.app/",
       "techno": ["techno/react.png", "techno/js.png", "techno/Sass.png"]
@@ -11,7 +11,7 @@
     {
       "id": 2,
       "title": "Country App",
-      "img": "img/country-app.jpg",
+      "img": "img/country-app.png",
       "desc": "Manipulation d'API de pays. Mise en place de filtres par continent. Utilisation de React Router.",
       "url": "https://countries-react-cours.netlify.app/",
       "techno": ["techno/react.png", "techno/js.png", "techno/css.png"]
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "title": "Booki",
-      "img": "img/booki.jpg",
+      "img": "img/booki.png",
       "desc": "Intégration HTML/CSS d'un site d'agence de voyage.",
       "url": "https://maxbgt.github.io/Booki/",
       "techno": ["techno/HTML.png", "techno/css.png"]
@@ -27,7 +27,7 @@
     {
       "id": 4,
       "title": "Portfolio Sophie Bluel",
-      "img": "img/portfolio-sophie-bluel.jpg",
+      "img": "img/portfolio-sophie-bluel.png",
       "desc": "Intégration de plusieurs fonctionnalités en JS, notamment une page de connexion. Manipulation des méthodes POST, GET et DELETE.",
       "url": "https://github.com/MaxBgt/Portfolio-architecte-sophie-bluel-master.io",
       "techno": ["techno/js.png", "techno/HTML.png", "techno/css.png"]
@@ -35,7 +35,7 @@
     {
       "id": 5,
       "title": "Gaming Campus",
-      "img": "img/gaming-campus.jpg",
+      "img": "img/gaming-campus.png",
       "desc": "Intégration HTML/CSS du site Gaming Campus.",
       "url": "https://maxbgt.github.io/Gaming-campus-css-/",
       "techno": ["techno/HTML.png", "techno/css.png"]
@@ -43,7 +43,7 @@
     {
       "id": 6,
       "title": "Kasa",
-      "img": "img/kasa.jpg",
+      "img": "img/kasa.png",
       "desc": "Développement from scratch d'une application avec ReactJs. Création de plusieurs pages et d'une descirption pour chaque logement",
       "url": "https://kasa-logements.netlify.app/",
       "techno": ["techno/react.png", "techno/Sass.png", "techno/js.png"]

@@ -1,8 +1,17 @@
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+
 const Card = ({ project }) => {
   return (
     <div className="card">
-      <h2 className="card_title">{project.title}</h2>
+      <div className="top-container">
+        <h2 className="card_title">{project.title}</h2>
+        <FontAwesomeIcon
+          icon={faArrowUpRightFromSquare}
+          className="link-icon"
+        />
+      </div>
       <a href={project.url} target="_blank" rel="noopener noreferrer">
         <img src={project.img} alt={project.title} className="card_img" />
         <div className="description_container">
