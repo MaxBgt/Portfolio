@@ -33,14 +33,6 @@
       "techno": ["techno/js.png", "techno/HTML.png", "techno/css.png"]
     },
     {
-      "id": 5,
-      "title": "Gaming Campus",
-      "img": "img/gaming-campus.png",
-      "desc": "Intégration HTML/CSS du site Gaming Campus.",
-      "url": "https://maxbgt.github.io/Gaming-campus-css-/",
-      "techno": ["techno/HTML.png", "techno/css.png"]
-    },
-    {
       "id": 6,
       "title": "Kasa",
       "img": "img/kasa.png",
